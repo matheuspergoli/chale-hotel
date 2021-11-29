@@ -1,0 +1,201 @@
+header {
+    position: relative;
+    margin: auto;
+    height: 250px;
+    width: 100%;
+}
+
+#imagem-topo1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+    width: 100%;
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+    z-index: 1;
+}
+
+#imagem-topo2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 250px;
+    width: 450px;
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+    z-index: 2;
+}
+
+#imagem-topo3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 70px;
+    width: 150px;
+    background: url(imagens/logo.png) no-repeat;
+    z-index: 3;
+}
+
+#imagem-topo4 {
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    width: 230px;
+    height: 170px;
+    background: url(imagens/depoimento.png) no-repeat;
+    z-index: 4;
+}
+
+header > div#imagem-topo2 > span { 
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 345px;
+    text-align: left;
+    margin-top: 5px;
+    padding: 10px 0px;
+    color: var(--cor2);
+    border-top: 1px solid var(--cor1);
+    border-bottom: 1px solid var(--cor1);
+}
+
+header > div#imagem-topo2 > a {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--cor3);
+    transition-duration: 0.5s;
+    background-color: var(--cor4);
+}
+
+header > div#imagem-topo2 > a:hover {
+    color: var(--cor3);
+    background-color: var(--cor2);
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    left: 87px;
+}
+
+nav li {
+    margin: 7px 0px;
+}
+
+.nav-link {
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    color: var(--cor2);
+}
+
+.nav-link:hover {
+    background-color: var(--cor3);
+}
+
+/*Fim topo*/
+
+
+
+
+
+section {
+    float: left;
+    width: 50%;
+    height: 510px;
+    background: url(imagens/bg-container.png);
+}
+
+section h2 {
+    text-align: left;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: var(--cor2);
+}
+
+section p {
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#imagem-section-top-right {
+    float: right;
+    width: 50%;
+    height: 30px;
+    background: url(imagens/bg-area-lateral.png) repeat-x;
+}
+
+#imagem-section-top-left {
+    float: left;
+    width: 50%;
+    height: 30px;
+    background: url(imagens/bg-area-principal.png) repeat-x;
+}
+
+/*Fim section*/
+
+
+
+
+
+article {
+    float: right;
+    width: 50%;
+    height: 510px;
+    background: url(imagens/bg-container.png) repeat-y right;
+}
+
+article h2 {
+    padding: 10px;
+    color: var(--cor2);
+    font-size: 1.3rem;
+}
+
+article li {
+    border-bottom: 1px solid var(--cor3);
+    height: 120px;
+}
+
+article li:hover {
+    background-color: var(--cor3);
+}
+
+article p {
+    color: black;
+    font-size: 0.8rem;
+}
+
+article a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.imagem-article {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    width: 160px;
+}
+
+.imagem-article-small { 
+    float: right;
+    margin-right: 30px;
+}
+
+/*Fim article*/

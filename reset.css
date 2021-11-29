@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #b5ab56;
+    --cor2: #8b8448;
+    --cor3: #fff5b0;
+    --cor4: #a29750;
+}
+
+body {
+    max-width: 1180px;
+    min-width: 750px;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(imagens/bg.png);
+}
+
+ol, ul, li {
+    list-style: none;
+}
